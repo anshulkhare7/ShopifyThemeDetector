@@ -1,0 +1,48 @@
+.si-search{
+    text-align: center;
+}
+
+#si_website{
+    width: 35% !important;
+}
+
+.si-result-container{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.si-loading-container{
+    text-align: center;
+}
+
+.si-error {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  
+  .si-error-text {  
+    display: none;  
+    top: 50px;
+    left: 40%;  
+    width: 20%;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .btn-detect-theme{
+      background-color: #DD3333 !important;
+      color: white;
+      border-radius: 6px !important;
+  }
+  
+
+  
